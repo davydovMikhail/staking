@@ -2,6 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 require("solidity-coverage");
 require("@nomiclabs/hardhat-web3");
 require('dotenv').config();
+require("./tasks");
 
 const { API_URL, PRIVATE_KEY } = process.env;
 
